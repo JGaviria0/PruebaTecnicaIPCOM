@@ -1,0 +1,50 @@
+[
+	{
+		"organization": "org1",
+		"users": [
+			{
+				"username": "jperez",
+				"roles": [
+					"admin ",
+					"superadmin"
+				]
+			},
+			{
+				"username": "asosa",
+				"roles": [
+					"writer"
+				]
+			}
+		]
+	},
+	{
+		"organization": "org2",
+		"users": [
+			{
+				"username": "jperez",
+				"roles": [
+					"admin "
+				]
+			},
+			{
+				"username": "rrodriguez",
+				"roles": [
+					"writer",
+					"editor"
+				]
+			}
+		]
+	},
+	{
+		"organization": "org3",
+		"users": [
+			{
+				"username": "Jgaviria0",
+				"roles": [
+					"backEnd",
+					"programacion"
+				]
+			}
+		]
+	}
+]
