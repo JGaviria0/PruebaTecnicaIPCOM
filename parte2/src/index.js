@@ -67,7 +67,7 @@ fs.createReadStream(__dirname + '/test.csv')
         newJson.splice(0,1)
         let dictstring = JSON.stringify(newJson, null, '\t')
         console.log(dictstring)
-        fs.writeFile("thing.json", dictstring, function(err, result) {
+        fs.writeFile("./src/newJsonFile.json", dictstring, function(err, result) {
             if(err) console.log('error', err);
         });
     })
