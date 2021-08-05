@@ -8,13 +8,11 @@ app.set('json spaces', 2)
 
 // middleware
 app.use(morgan('dev'))
-app.use(express.urlencoded({extended: false}))
+app.use(express.urlencoded({extended: true}))
 app.use(express.json())
 
 // routes 
-app.get('/', (req, res) => {
-    res.json('Hello word');
-})
+app.use(require('./routes/resumen'))
 
 // starting the server
 app.listen( app.get('port'), () => {
