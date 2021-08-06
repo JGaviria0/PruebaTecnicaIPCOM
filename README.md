@@ -2,14 +2,14 @@
 
 ## Parte 1
 
-    ** ESCENARIO **
+    ESCENARIO 
     
     Un cliente de IPCOM realiza ventas en sus call center y desea un API para analizarlas. Las ventas pueden ser 
     consultadas mediante un API REST. 
     
 ------------
 
-    ** API **
+     API 
     
     Existe un API que nos devuelve un arreglo con el siguiente JSON
 
@@ -86,7 +86,7 @@ org2,rrodriguez,editor
     
 ------------
 
-    generar un json con la siguiente estructura:
+    Generar un json con la siguiente estructura:
  
  ```json 
  [
