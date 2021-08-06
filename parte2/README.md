@@ -30,7 +30,7 @@
 ## Go to this file
 
     newJSONFile.json
-    or whatch the console 
+    or watch the console 
 
 ------------ 
 
