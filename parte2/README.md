@@ -17,7 +17,7 @@
     
 ------------
 
-## Before run
+## Before running
 
     Put the file csv in src folder, and change the name to test.csv
 ------------
