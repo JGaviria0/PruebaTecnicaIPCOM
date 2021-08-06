@@ -68,7 +68,7 @@
     
 ------------
 
-## parte 2
+## Parte 2
 
     Dado un csv con los siguientes datos:
     
