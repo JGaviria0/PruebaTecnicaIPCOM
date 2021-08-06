@@ -4,7 +4,8 @@
 
     **ESCENARIO**
     
-    Un cliente de IPCOM realiza ventas en sus call center y desea un API para analizarlas. Las ventas pueden ser consultadas mediante un API REST. 
+    Un cliente de IPCOM realiza ventas en sus call center y desea un API para analizarlas. Las ventas pueden ser 
+    consultadas mediante un API REST. 
     
 ------------
 
@@ -29,7 +30,8 @@
  
 ------------
 
-    Para consultar este API es mediante un  GET a https://apirecruit-gjvkhl2c6a-uc.a.run.app/compras/2019-12-01  para obtener todas las compras de un día. 
+    Para consultar este API es mediante un  GET a https://apirecruit-gjvkhl2c6a-uc.a.run.app/compras/2019-12-01  para obtener todas
+    las compras de un día. 
  
     Debe realizar un servicio web que consulte el api descrito arriba y  que responda unas estadísticas en el siguiente Endpoint
  
@@ -88,22 +90,35 @@ org2,rrodriguez,editor
  
  ```json 
  [
-   { organization: “org1”, 
-     users: [{
-       username: “jperez”,
-       roles: [“admin”,”superadmin”] }
-       {
-       username: “asosa”,
-       roles: [“writer”] }
-    ]
-   }, 
-  { organization: “org2”, 
-     users: [{
-       username: “jperez”,
-       roles: [“admin”] 
-       }
-    ]
-  }
+	{
+		"organization": "org1",
+		"users": [
+			{
+				"username": "jperez",
+				"roles": [
+					"admin ",
+					"superadmin"
+				]
+			},
+			{
+				"username": "asosa",
+				"roles": [
+					"writer"
+				]
+			}
+		]
+	},
+	{
+		"organization": "org2",
+		"users": [
+			{
+				"username": "jperez",
+				"roles": [
+					"admin "
+				]
+			}
+		]
+	}
 ]
  ```
  
