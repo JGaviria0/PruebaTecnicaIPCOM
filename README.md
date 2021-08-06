@@ -24,6 +24,7 @@
     "monto":123.20,
     "date":"2020-02-20T14:53:00Z"
 }]
+
  ```
  
 ------------
@@ -38,8 +39,8 @@
     
 ------------
     
-    ```json
-    {
+```json
+{
   "total": 12001.00, 
   "comprasPorTDC":{
     "oro":1000,
@@ -48,16 +49,20 @@
   "nocompraron":100,
   "compraMasAlta":500
 }
-    ```
+```
     
 ------------
 
 
-    La fecha 2019-12-01 es la primera fecha. Y el parámetro días indica cuantos días debe consultar. En este ejemplo serian 5 dias incluido 2019-12-01 es decir del 2019-12-01 al 2019-12-05
+    La fecha 2019-12-01 es la primera fecha. Y el parámetro días indica cuantos días debe consultar. 
+    En este ejemplo serian 5 dias incluido 2019-12-01 es decir del 2019-12-01 al 2019-12-05
  
     El JSON debe contener los siguientes campos: 
  
-    Total: la suma del monto de todas las ventas de todos los días indicados comprasPorTDC: un map que tenga como llave el tipo de tdc y como valor la suma del monto correspondiente a esa tipo de tarjeta de esos días.  noCompraron: numero de registros donde no hubo compra compraMasAlta: la compra mas alta en el periodo. 
+    Total: la suma del monto de todas las ventas de todos los días indicados comprasPorTDC: un map que 
+    tenga como llave el tipo de tdc y como valor la suma del monto correspondiente a esa tipo de tarjeta 
+    de esos días.  noCompraron: numero de registros donde no hubo compra compraMasAlta: la compra mas alta 
+    en el periodo. 
     
 ------------
 
@@ -92,10 +97,14 @@ org2,rrodriguez,editor
        roles: [“writer”] }
     ]
    }, 
-  {
-      organization:”org2”, 
-    … 
-}]
+  { organization: “org2”, 
+     users: [{
+       username: “jperez”,
+       roles: [“admin”] 
+       }
+    ]
+  }
+]
  ```
  
 ------------
